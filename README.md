@@ -1,31 +1,36 @@
-# Project Proposal: The Luck Factor in Career Success: How Economic Climate and Global Events Shape the Future <br/>
+# Project Proposal: The Data Behind Women Leaders and National Well-Being <br/>
 ## 2.Introduction<br/>
-Since we are students and almost every time think about our future, I wanted to show some truths about career success. My project aims to analyze how external factors such as the economic climate, industry trends, and global events at the time of graduation influence career success. By combining historical job market data with economic indicators and major global events, this study will examine whether career plans are significantly affected by the circumstances of one's graduation year which is independent of individual skills and education. The objective is to quantify the role of "luck" in career success and explore whether certain graduation years provide more advantages or challenges than others. 
+In this project, I will explore the relationship between women's leadership and world happiness by analyzing cross-country data. My focus will be to investigate how women's political empowerment correlate with key well-being indicators. This project aims to go beyond surface-level statistics and test deeper questions such as: Do countries with higher women’s political empowerment experience greater happiness? By applying statistical analysis and machine learning models, I want to gain meaningful insights into how empowering women in leadership contributes to national well-being. 
 ## 2.Motivation<br/>
-Many people believe that career success is driven solely by talent, education, and hard work. However, I want to show that external factors such as economic conditions and industry trends play a significant role. This project aims to investigate these external influences, helping individuals and policymakers understand how global circumstances shape career outcomes. 
-<br/>
-Understanding these patterns can:<br/>
-•	Provide guidance to students and young professionals navigating uncertain job markets.<br/>
-•	Help policymakers design interventions to support graduates during economic downturns.<br/>
-•	Offer insights for companies in talent acquisition and workforce planning.<br/>
-<br/>
+As a woman pursuing a career in technology and data science, I’m deeply passionate about highlighting the transformative power of women in leadership. This project is more than just an academic exercise, it’s a reflection of my belief that when women are given equal seats at decision-making tables, societies flourish. In a world still struggling with gender disparities, I want to use data to show that empowering women politically isn’t just a matter of justice, it’s a path to a happier, more balanced world. Through this project, I aim to combine my technical skills with my values, amplifying the message that female leadership is not only powerful but essential for global well-being.
 ## 3. Data Source & Collection Methodology<br/>
 This project will use a combination of publicly available datasets enriched with additional data sources:<br/>
-#### A- Economic and Labor Market Data<br/>
-#### B- Global Events Data<br/>
-#### C-	Longitudinal Career Data<br/>
-## 4. Data Analysis & Methodology<br/>
-Once data collection is complete, I will conduct the following analyses:<br/>
-#### A.	Exploratory Data Analysis (EDA)<br/>
-•	Using visuals to examine relationships between graduation year and career success.<br/>
-•	Identifying patterns and distributions of periods through histograms and scatter plots.<br/>
-•	Applying boxplots to understand variations in success levels before and after some specific events.<br/>
-#### B.	Statistical Analysis <br/>
-•	Correlation Analysis <br/>
-•	Statistical Testing <br/>
-## 5. Technical Requirements<br/>
-•	Programming Language: Python<br/>
-•	Libraries: Pandas, Matplot, Seaborn <br/>
-•	Version Control: GitHub (since regular commits needed)<br/>
-## Conclusion<br/>
-This project aims to determine whether career success is influenced by external economic factors rather than just personal effort and education. By analyzing large-scale employment and economic data, I hope to provide insights that will benefit students, career planners, and policymakers in navigating uncertain job markets.
+#### A- World Happiness Report <br/>
+#### B- Women's Political Empowerment Index <br/>
+#### C-	Women's Political Participation Index<br/>
+#### D-	Average Years of Schooling <br/>
+#### E-	Human Development Index <br/>
+## 4.	Tools and Technologies<br/>
+•	Python: Core language for data manipulation and modeling<br/>
+•	Pandas: For data loading, merging, and preprocessing<br/>
+•	Seaborn/Matplotlib: For data visualization (e.g., heatmaps, trends)<br/>
+•	Google Colab: For cloud-based development and experimentation<br/>
+## 5.	Analysis Plan<br/>
+#### 1. Data Cleaning & Merging <br/>
+•	Standardize country names and match on country + year <br/>
+•	Handle missing values via interpolation or dropping based on thresholds <br/>
+#### 2. Exploratory Data Analysis (EDA) <br/>
+•	Summary statistics and trends <br/>
+•	Correlation matrices <br/>
+•	Distribution of women leadership scores and happiness by region <br/>
+#### 3. Hypothesis Testing <br/>
+•	H₀: Women’s political empowerment has no effect on national happiness <br/>
+•	H₁: Women’s political empowerment has effect on national happiness <br/>
+•	Use t-tests, ANOVA, and Pearson/Spearman correlation <br/>
+#### 4. Regression and prediction <br/>
+•	Multiple linear regression and feature importance <br/>
+•	Random Forest Regressor to compare effects of different variables (GDP, HDI, women empowerment) <br/>
+## 6. Expected Outcomes<br/>
+•	A clear understanding of how women’s political empowerment correlates with national happiness<br/>
+•	Insights into whether education or development level modifies this effect <br/>
+•	A predictive model that identifies which variables are most influential in shaping happiness<br/> 
